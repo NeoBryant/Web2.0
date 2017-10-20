@@ -1,0 +1,115 @@
+body{
+		background-image:url(background.png);
+		font-size:8pt;
+		font-family:Verdana,Tahoma;
+	}
+
+	div.div1 {
+		background-image:url(bannerbackground.png);
+		background-repeat:repeat-x;
+		margin:-0.5em;
+	}
+
+	div.div2{
+		width:800px;
+		margin:auto;
+		overflow:hidden;
+		border:4px solid grey;
+	}
+
+	div.div3{
+		background-image:url(rottenbackground.png);
+		background-repeat:repeat-x;
+		
+	}
+
+	div.div4{
+		padding-left:15px;
+		margin-bottom:3em;
+		width:250px;
+	}
+
+	div.dd{
+		float:left;
+	}
+
+	div.ddd{
+		width:250px;
+		background-color:#A2B964;
+		float:right;
+	}
+
+	span#tet{
+		font-size:48pt;
+		color:red;
+		font-weight:bold;
+	}
+
+	span#net{
+		font-size:8pt;
+		color:white;
+	}
+
+	span#nn{
+		font-style:italic;
+	}
+
+	img#picture1 {
+		width:100%;
+		height:50px;
+	}
+
+	img#picture3{
+		height:100%;
+		vertical-align:-67%;
+	}
+
+	img#pic1{
+		margin-right:5px;
+		margin-bottom:5px;
+		float:left;
+	}
+	img#pic2{
+		position:fixed;
+		bottom:0em;
+		right:0em;
+	}
+	img#pic3{
+		position:fixed;
+		bottom:3em;
+		right:0em;
+	}
+	h1{
+		font-size:24pt;
+		font-family:Tahoma,Verdana;
+		text-align:center;
+	}
+
+	dl{
+		padding-left:10px;
+		padding-right:10px;
+	}
+
+	dt{
+		padding-top:10px;
+		font-weight:bold;
+	}
+
+	p.f123 {
+		padding:8px;
+		border:2px solid grey;
+		background-color:#E1D697;
+		overflow:hidden;
+	}
+
+	p#f88{
+		clear:right;
+		background-color:#A2B964;
+		text-align:center;
+		margin:0;
+		padding:5px;
+	}
+
+	q{
+		font-weight:bold;
+	}

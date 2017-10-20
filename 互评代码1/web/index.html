@@ -1,0 +1,44 @@
+<html>
+	<head>
+	<link rel="stylesheet" type="text/css" href="index.css" />
+	<meta name=“description" content=“introduction of food" />
+	<title>Personal Recipe</title>
+	<script language=JavaScript>
+			function dateClock() {
+				days = new Array("Sunday", "Monday", "Tuseday", "Wednesday", "Thursday", "Friday", "Saturady");
+				now = new Date();
+				year = now.getFullYear();
+				month = now.getMonth()+1;
+				date = now.getDate();
+				day = now.getDay();
+				dateStr = year + "/" + month + "/" + date + "  " + days[day];
+				document.forms[0].date.value = dateStr;
+			}
+			function timeClock() {
+				now = new Date();
+				hours = now.getHours();
+				minutes = now.getMinutes();
+				seconds = now.getSeconds();
+				timeStr = "" + hours;
+				timeStr += ":" + minutes;
+				timeStr += ":" + seconds;
+				document.forms[0].time.value = timeStr;
+			}
+			setInterval("timeClock()", 1000);
+		</script>
+	</head>
+
+	<body onLoad="dateClock(); timeClock();">
+		<h1>Personal Recipe</h1>
+		<form>
+			date:<input type=text name=date size=20 value=""> <br>
+			time:<input type=text name=time size=20 value=""> <br>
+		</form>
+		<p>I enjoy this meal very much!</p>
+		<img src="http://wx3.sinaimg.cn/large/a1fcb2ebgy1fjfjjm0j1sj20zk0qo47t.jpg" alt="a big meal" width="500" height="500">
+		<p><a href="pie.html" target="_blank">Visit this Recipe!</a>This is my first recipe of Lemon Meringue Pie!</p>
+		<p>You also can click the next pircture to see the recipe! </p>
+		<p><a href="pie.html" target="_blank"><img src="http://courses.cs.washington.edu/courses/cse190m/09sp/homework/1/pie.jpg" alt="Pie"></a></p>
+	</body>
+
+</html>

@@ -1,0 +1,32 @@
+body
+  {
+  background-image: url("sky.jpg");
+  font-size:30pt;
+  font-family: Century;
+  color: white;
+  }
+  h1{
+    font-family: Century;
+    font-weight:bold;
+    font-size:50pt;
+    word-spacing: +0.2em;
+    color:black;
+  }
+a{
+  font-size:40pt;
+  font-family: Century;
+  color: #A4A220;
+}
+p{
+  text-align: center;
+}
+p.a{
+  color: Yellow;
+  text-align: left;
+}
+hr{
+   height:1px;
+   border:none;
+   border-top:5px
+   groove white;
+ }  
